@@ -6,9 +6,9 @@ pygame.init()
 # clock = pygame.time.Clock()
  
 # Initializing surface
-screen = pygame.display.set_mode((400,300))
-max_width = 400
-max_height = 300
+max_width = 600
+max_height = 400
+screen = pygame.display.set_mode((max_width,max_height))
 scroll_x = 0
 scroll_y = 0
 
